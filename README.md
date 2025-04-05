@@ -1,16 +1,16 @@
 # Semicolon Fingers
 > addressing the global loneliness epidemic..
 
-Sign up here => [semicolonfingers.com](https://semicolonfingers.com)
+:sparkles: [Sign up here](https://semicolonfingers.com) :sparkles:
 
 > [!TIP]
-> Jump to [current wave](#wave-2----0419)
+> Jump to [current wave](#desktop_computer-wave-2----0419) :point_down:
 
 > [!IMPORTANT]
 > Semicolon Fingers is participating in gitcoin grants round 23! Consider 
-[donating to the project](https://explorer.gitcoin.co/#/round/42161/867/184) ⚡️
+[donating to the project](https://explorer.gitcoin.co/#/round/42161/867/184) :zap:
 
-## Wave 1 ( -> 04/05)
+## :chains: Wave 1 ( -> 04/05) 
 > Architecture overview and build plan
 
 The plan this wave was to understand Zora Coins and formulate a plan to integrate it with 
@@ -23,7 +23,7 @@ subsequent L3, where the rollup is purpose driven to perform onchain sentiment a
 
 Please see the [specific markdown](./waves/wave01.md) for more details.
 
-## Wave 2 ( -> 04/19)
+## :desktop_computer: Wave 2 ( -> 04/19)
 > Initial build
 
 The plan for this wave is to ship the first version of the project. This includes the deployment
@@ -31,20 +31,20 @@ of contracts, wrapping up frontend, managing auth, and integrate Coins SDK for t
 
 Please see the [specific markdown](./waves/wave02.md) for more details.
 
-## Wave 3 ( -> 05/03)
+## :footprints: Wave 3 ( -> 05/03)
 > Interactive trails
 
 This wave is about improving the experience of the reader-trails Coins. This includes engineering
 the metadata such that it replays a reader's journey, ensuring proper rendering on zora.co and
 other platforms, etc.
 
-## Wave 4 ( -> 05/17)
+## :bar_chart: Wave 4 ( -> 05/17)
 > Leaderboards
 
 In this wave, the focus will be on integrating a leaderboard and trading within the platform. An
 additional goal this wave may also be to add profile views within the platform.
 
-## Wave 5 ( -> 05/31)
+## :robot: Wave 5 ( -> 05/31)
 > Ngram explorations
 
 The ultimate goal of this project is to enable onchain sentiment analysis. As such, this wave will
@@ -53,7 +53,7 @@ focus on how to incorporate a SVM within the network, and any related architectu
 An additional goal this wave will be to complete the profile / account view within the platform
 (and enable withdrawals).
 
-## Wave 6+ 
+## :hammer_and_wrench: Wave 6+ 
 > Implementing v2
 
 June onwards the focus will be entirely on v2 of the project, assuming v1 is successfully shipped.
