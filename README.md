@@ -4,9 +4,9 @@
 Sign up here => [semicolonfingers.com](https://semicolonfingers.com)
 
 > [!TIP]
-> Jump to [current wave](#wave-2)
+> Jump to [current wave](#wave-2----0419)
 
-## Wave 1 ( -> 4/5)
+## Wave 1 ( -> 04/05)
 > Architecture overview and build plan
 
 The plan this wave was to understand Zora Coins and formulate a plan to integrate it with 
@@ -19,7 +19,7 @@ subsequent L3, where the rollup is purpose driven to perform onchain sentiment a
 
 Please see the [specific markdown](./waves/wave01.md) for more details.
 
-## Wave 2 ( -> 4/19)
+## Wave 2 ( -> 04/19)
 > Initial build
 
 The plan for this wave is to ship the first version of the project. This includes the deployment
@@ -27,20 +27,20 @@ of contracts, wrapping up frontend, managing auth, and integrate Coins SDK for t
 
 Please see the [specific markdown](./waves/wave02.md) for more details.
 
-## Wave 3 ( -> 5/3)
+## Wave 3 ( -> 05/03)
 > Interactive trails
 
 This wave is about improving the experience of the reader-trails Coins. This includes engineering
 the metadata such that it replays a reader's journey, ensuring proper rendering on zora.co and
 other platforms, etc.
 
-## Wave 4 ( -> 5/17)
+## Wave 4 ( -> 05/17)
 > Leaderboards
 
 In this wave, the focus will be on integrating a leaderboard and trading within the platform. An
 additional goal this wave may also be to add profile views within the platform.
 
-## Wave 5 ( -> 5/31)
+## Wave 5 ( -> 05/31)
 > Ngram explorations
 
 The ultimate goal of this project is to enable onchain sentiment analysis. As such, this wave will
@@ -57,11 +57,11 @@ As such, plans for wave 6 onwards depends heavily on wave 5 (and prior), and wil
 time.
 
 
-<!-- ## Wave 6 ( -> 6/14) -->
+<!-- ## Wave 6 ( -> 06/14) -->
 <!-- >  -->
 
-<!-- ## Wave 7 ( -> 6/28) -->
+<!-- ## Wave 7 ( -> 06/28) -->
 <!-- >  -->
 
-<!-- ## Wave 8 ( -> 7/12) -->
+<!-- ## Wave 8 ( -> 07/12) -->
 <!-- >  -->
