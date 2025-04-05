@@ -6,6 +6,10 @@ Sign up here => [semicolonfingers.com](https://semicolonfingers.com)
 > [!TIP]
 > Jump to [current wave](#wave-2----0419)
 
+> [!IMPORTANT]
+> Semicolon Fingers is participating in gitcoin grants round 23! Consider 
+[donating to the project](https://explorer.gitcoin.co/#/round/42161/867/184) ⚡️
+
 ## Wave 1 ( -> 04/05)
 > Architecture overview and build plan
 
