@@ -1,14 +1,14 @@
 # Semicolon Fingers
 > addressing the global loneliness epidemic..
 
+> [!IMPORTANT]
+> Semicolon Fingers is participating in gitcoin grants round 23! Consider 
+[donating to the project](https://explorer.gitcoin.co/#/round/42161/867/184) :zap:
+
 :sparkles: [Sign up here](https://semicolonfingers.com) :sparkles:
 
 > [!TIP]
 > Jump to [current wave](#desktop_computer-wave-2----0419) :point_down:
-
-> [!IMPORTANT]
-> Semicolon Fingers is participating in gitcoin grants round 23! Consider 
-[donating to the project](https://explorer.gitcoin.co/#/round/42161/867/184) :zap:
 
 ## :chains: Wave 1 ( -> 04/05) 
 > Architecture overview and build plan
