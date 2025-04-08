@@ -97,16 +97,81 @@ Semicolon Fingers [v1](#mvp-v1) will reside entirely on Base, sepolia and mainne
 architecture, it is best to see [wave 05](./wave05.md).
 
 ### Contracts
+> Please track the progress on the contracts in the [specific 
+repository](https://github.com/sliver-labs/semicolon-forge)
+
+The following contracts will power the entire network,
+- [`SemicolonPersona`](https://github.com/sliver-labs/semicolon-forge/issues/2) This contract is
+deployed for every user and represents their account on the network
+- [`SemicolonStory`](https://github.com/sliver-labs/semicolon-forge/issues/4) This contract is
+deployed for every story created on the network.
+- [`SemicolonToken`](https://github.com/sliver-labs/semicolon-forge/issues/6) This contract is
+the main ERC20 for the network.
+- [`SemicolonTreasury`](https://github.com/sliver-labs/semicolon-forge/issues/7) This contract is
+the treasury contract where users can perform a _burn-to-claim_ action and withdraw USDC (or other
+tokens, _tbd_).
+- [`SemicolonAdmin`](https://github.com/sliver-labs/semicolon-forge/issues/13) This contract is
+the main manager contract for the entire network. The network, in order to remain free, plays
+with the concepts of testnets and mainnets, and this contract provides the necessary tooling to
+bridge between the two, and eventually the rollup.
+- [_`SemicolonTrail`_](https://github.com/sliver-labs/semicolon-forge/issues/8) This contract is
+planned to represent the Coins created by readers. However, this contract may not need to exist.
+- [_`SemicolonNgram`_](https://github.com/sliver-labs/semicolon-forge/issues/9) Similarly, this 
+contract is planned to represent the Coins created by writers. However, this contract may not need
+to exist.
+- [`SemicolonGas`](https://github.com/sliver-labs/semicolon-forge/issues/12) This contract is about
+the gas token for the eventual rollup. More on this in [wave 05](./wave05.md).
 
 ### Web2
 
-## User Flow
-
-The user interacts with the network in two primary ways, the [writer side](https://emptyyourmug.com/) 
-or the [reader side](https://pullmythread.com/). Their account, and related actions, live on the 
-[primary domain](https://semicolonfingers.com), however, this part will be built out in 
-[wave 04](./wave04.md).
-
-### Client side
+The network will be accessible through three portal, the [account mgmt 
+website](https://semicolonfingers.com), the [writer portal](https://emptyyourmug.com),
+and the [reader portal](https://pullmythread.com). Additionally, there will be an auth service
+that manages user signups and logins. This is done deliberately to keep the feel of the porject
+very Web2 like. For instance, one decision made here is to include a SIWE login, as the goal of 
+the project is to onboard new people into crypto. Of course, existing crypto native folk will be
+able to add their wallets to their profiles. Another key decision made here is to deploy a new
+Modular Smart Wallet for each user, and have that be the main interface for the users with the 
+network.
 
 ### Tokenomics
+
+The tokenomics of the network revolve around two tokens — `SemicolonToken` and `SemicolonGas`. The
+former is the primary token, motivating writers to share their stories. When readers read a story,
+new tokens are created for the writers of that story, on the testnet. At some point, the readers 
+are expected to _commit_ their reading history on mainnet which can happen in one of two ways,
+they can either create a Coin about their reading path or they can mint or collect a particular
+story. In either case, they are expected to pay a certain amount (`USDC` for now) to the treasury
+on the mainnet, which triggers an airdrop of the `SemicolonToken` to the respective writers. In 
+fact, the amount they provide also prices the tokens that were created as a result of their reading 
+journey.
+
+The `SemicolonGas` token exists to incentivize running a rollup node. The rollup is planned to be 
+a purpose driven chain around sentiment analysis, and as such will include some precompiles to 
+assist in the machine learning. This will likely increase compute costs for the node operator, and 
+the `SemicolonGas` token exists to compensate them for it.
+
+**Where does Zora fit in?**
+
+Zora's Coins Protocol is an essential part of this architecture. For the first token, readers can 
+freely create Coins around their reading history which incentivises them to continually _commit_
+their history on mainnet, thereby ensuring that there not a lot of delay in the writers being able
+to use the `SemicolonToken`s they earn. Additionally, owing to the rewards program by Zora, any 
+potential trades that happen on these Coins helps fund the network over the long term. Yes, an 
+individual Coin may not provide enough `WETH/ETH` to sustain the network, however, when scaled over
+hundreds of readers each having hundreds of Coins, there should be enough available in the rewards
+that helps run the network effectively.
+
+Similarly, on the writers' side, each unique token they submit to the network gets created as a 
+Coin. This incentivizes writers to write unique stories, and also be the first at writing them, 
+thereby bringing in early adoption for the project. Having said that, the potential for abuse is a 
+little high here, and no elegant solution exists right now. As the initial model can support only
+65535 unique tokens, and there being a delay (of about two months) in creating Coins, the hope 
+is that the initial stories are sufficient in filling up the 65535 slots. The intial stories are 
+not written with the expectation of Coins, but instead for the expectation of `SemicolonToken`s.
+
+Finally, as the Coins Protocol allows markets to be created with any token, a potential way this 
+can manifest in Semicolon Fingers is the reader-trail Coins be traded with `SemicolonToken` and 
+the writer-ngram Coins be traded with `SemicolonGas`. This would directly help in pricing each 
+token of the network, but this is something to be decided upon in [wave 05](./wave05.md) after 
+considering the game theory aspects of it all.
