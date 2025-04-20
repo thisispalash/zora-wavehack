@@ -1,14 +1,10 @@
 # Semicolon Fingers
 > addressing the global loneliness epidemic..
 
-> [!IMPORTANT]
-> Semicolon Fingers is participating in gitcoin grants round 23! Consider 
-[donating to the project](https://explorer.gitcoin.co/#/round/42161/867/184) :zap:
-
 :sparkles: [Sign up here](https://semicolonfingers.com) :sparkles:
 
 > [!TIP]
-> Jump to [current wave](#desktop_computer-wave-2----0419) :point_down:
+> Jump to [current wave](#footprints-wave-3----0503) :point_down:
 
 ## :chains: Wave 1 ( -> 04/05) 
 > Architecture overview and build plan
@@ -29,14 +25,18 @@ Please see the [specific markdown](./waves/wave01.md) for more details.
 The plan for this wave is to ship the first version of the project. This includes the deployment
 of contracts, wrapping up frontend, managing auth, and integrate Coins SDK for the reader side. 
 
+The MVP was ~60% completed, rest will be covered in the next wave.
+
 Please see the [specific markdown](./waves/wave02.md) for more details.
 
 ## :footprints: Wave 3 ( -> 05/03)
-> Interactive trails
+> Zora Integration
 
-This wave is about improving the experience of the reader-trails Coins. This includes engineering
-the metadata such that it replays a reader's journey, ensuring proper rendering on zora.co and
-other platforms, etc.
+This wave will be about completing the MVP, deploying contracts, and finally integrating Zora 
+Coins. Stretch goal is to create some form of generative art for beautiful display on zora.co 
+(and other platforms).
+
+Please see the [specific markdown](./waves/wave03.md) for more details.
 
 ## :bar_chart: Wave 4 ( -> 05/17)
 > Leaderboards
