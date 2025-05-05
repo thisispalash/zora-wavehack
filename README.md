@@ -4,7 +4,7 @@
 :sparkles: [Sign up here](https://semicolonfingers.com) :sparkles:
 
 > [!TIP]
-> Jump to [current wave](#footprints-wave-3----0503) :point_down:
+> Jump to [current wave](#bar_chart-wave-4----0518) :point_down:
 
 ## :chains: Wave 1 ( -> 04/05) 
 > Architecture overview and build plan
@@ -39,10 +39,12 @@ Coins. Stretch goal is to create some form of generative art for beautiful displ
 Please see the [specific markdown](./waves/wave03.md) for more details.
 
 ## :bar_chart: Wave 4 ( -> 05/18)
-> Leaderboards
+> Profiles
 
-In this wave, the focus will be on integrating a leaderboard and trading within the platform. An
-additional goal this wave may also be to add profile views within the platform.
+The focus of this wave is to make the profiles section of the platform, a leaderboard for reader 
+Coins, and maybe pair Coins with USDC and a Coinbase onramp
+
+Please see the [specific markdown](./waves/wave04.md) for more details.
 
 ## :robot: Wave 5 ( -> 06/01)
 > Ngram explorations
