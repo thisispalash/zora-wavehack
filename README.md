@@ -29,7 +29,7 @@ The MVP was ~60% completed, rest will be covered in the next wave.
 
 Please see the [specific markdown](./waves/wave02.md) for more details.
 
-## :footprints: Wave 3 ( -> 05/03)
+## :footprints: Wave 3 ( -> 05/04)
 > Zora Integration
 
 This wave will be about completing the MVP, deploying contracts, and finally integrating Zora 
@@ -38,13 +38,13 @@ Coins. Stretch goal is to create some form of generative art for beautiful displ
 
 Please see the [specific markdown](./waves/wave03.md) for more details.
 
-## :bar_chart: Wave 4 ( -> 05/17)
+## :bar_chart: Wave 4 ( -> 05/18)
 > Leaderboards
 
 In this wave, the focus will be on integrating a leaderboard and trading within the platform. An
 additional goal this wave may also be to add profile views within the platform.
 
-## :robot: Wave 5 ( -> 05/31)
+## :robot: Wave 5 ( -> 06/01)
 > Ngram explorations
 
 The ultimate goal of this project is to enable onchain sentiment analysis. As such, this wave will
