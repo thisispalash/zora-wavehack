@@ -1,23 +1,4 @@
-# :bar_chart: Wave 04
-> Leaderboards
+# :x: Wave 04
 
-_high level overview_
-
-## The Plan
-
-- [ ] list of 
-- [ ] tasks or
-- [ ] features to
-- [ ] be built
-
-## Updates
-
-- any changes
-- to the
-- plan during
-- the wave
-
-## Submission
-
-- list of
-- PRs created
+> [!NOTE]
+> This wave was skipped

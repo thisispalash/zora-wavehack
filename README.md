@@ -4,7 +4,7 @@
 :sparkles: [Sign up here](https://semicolonfingers.com) :sparkles:
 
 > [!TIP]
-> Jump to [current wave](#bar_chart-wave-4----0518) :point_down:
+> Jump to [current wave](#bar_chart-wave-5----0518) :point_down:
 
 ## :chains: Wave 1 ( -> 04/05) 
 > Architecture overview and build plan
@@ -38,22 +38,19 @@ Coins. Stretch goal is to create some form of generative art for beautiful displ
 
 Please see the [specific markdown](./waves/wave03.md) for more details.
 
-## :bar_chart: Wave 4 ( -> 05/18)
-> Profiles
+## :x: Wave 4 ( -> 05/18)
+> skipped
 
-The focus of this wave is to make the profiles section of the platform, a leaderboard for reader 
-Coins, and maybe pair Coins with USDC and a Coinbase onramp
+This wave was skipped due to other engagements.
 
-Please see the [specific markdown](./waves/wave04.md) for more details.
+## :computer: Wave 5 ( -> 06/01)
+> Refactor to monorepo
 
-## :robot: Wave 5 ( -> 06/01)
-> Ngram explorations
+The primary aim this wave was to actually ship the project. However, shipping will require another 
+wave. The main focus this wave was to shift to a monorepo since there were a lot of repeated 
+components.
 
-The ultimate goal of this project is to enable onchain sentiment analysis. As such, this wave will
-focus on how to incorporate a SVM within the network, and any related architecture for a rollup.
-
-An additional goal this wave will be to complete the profile / account view within the platform
-(and enable withdrawals).
+Please see the [specific markdown](./waves/wave05.md) for more details.
 
 ## :hammer_and_wrench: Wave 6+ 
 > Implementing v2
