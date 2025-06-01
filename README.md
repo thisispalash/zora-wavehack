@@ -4,7 +4,7 @@
 :sparkles: [Sign up here](https://semicolonfingers.com) :sparkles:
 
 > [!TIP]
-> Jump to [current wave](#bar_chart-wave-5----0518) :point_down:
+> Jump to [current wave](#rowboat-wave-6----0615) :point_down:
 
 ## :chains: Wave 1 ( -> 04/05) 
 > Architecture overview and build plan
@@ -52,16 +52,12 @@ components.
 
 Please see the [specific markdown](./waves/wave05.md) for more details.
 
-## :hammer_and_wrench: Wave 6+ 
-> Implementing v2
+## :rowboat: Wave 6 ( -> 06/15)
+> Ship! Ship! Ship!
 
-June onwards the focus will be entirely on v2 of the project, assuming v1 is successfully shipped.
-As such, plans for wave 6 onwards depends heavily on wave 5 (and prior), and will be updated in
-time.
+It is time to finally ship the damn project!
 
-
-<!-- ## Wave 6 ( -> 06/14) -->
-<!-- >  -->
+Please see the [specific markdown](./waves/wave06.md) for feature list.
 
 <!-- ## Wave 7 ( -> 06/28) -->
 <!-- >  -->
